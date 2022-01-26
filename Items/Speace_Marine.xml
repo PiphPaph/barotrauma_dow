@@ -1,7 +1,7 @@
 <Items>
 	<Item name="" identifier="ULTRA_Mark_VII" category="Equipment" tags="provocative,divingsuit" scale="0.5" fireproof="true" description="">
 
-		<Price baseprice="1500">
+		<Price baseprice="6000">
 			<Price locationtype="outpost" multiplier="1.3" minavailable="0" maxavailable="1"/>
 			<Price locationtype="city" multiplier="1" minavailable="1" maxavailable="2"/>
 			<Price locationtype="research" multiplier="0.7" minavailable="0" maxavailable="1"/>
@@ -14,8 +14,36 @@
 		</Deconstruct>
 		<Fabricate suitablefabricators="fabricator" requiredtime="60">
 			<RequiredSkill identifier="mechanical" level="70" />
-			<RequiredItem identifier="titaniumaluminiumalloy" />
-			<RequiredItem identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
 		</Fabricate>
 		
 		<InventoryIcon texture="ULTRA_head.png" sourcerect="158,45,150,105" origin="0.5,0.5" />
@@ -107,17 +135,17 @@
 		</StatusEffect>
 		
       <!-- <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" /> -->
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound" damagemultiplier="0.1" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.1" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.0" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,huskinfection" damagemultiplier="0.0" damagesound="LimbArmor"/> 
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiation,exposure,glowing,contamination" damagemultiplier="0.0" damagesound="LimbArmor"/> 
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="alieninfection,poison,paralysis" damagemultiplier="0.35" probabilitymultiplier="0.1" damagesound="LimbArmor"/>
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor"/>
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="hallucinating" damagemultiplier="0.2" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound" damagemultiplier="0.35" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.2" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.4" probabilitymultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.3" probabilitymultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,huskinfection" damagemultiplier="0.1" damagesound="LimbArmor"/> 
+      <!--damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiation,exposure,glowing,contamination" damagemultiplier="0.0" damagesound="LimbArmor"/--> 
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="alieninfection,poison,paralysis" damagemultiplier="0.35" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.3" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="hallucinating" damagemultiplier="0.7" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
                                 <StatValue stattype="FlowResistance" value="0.9" />
                                 <StatValue stattype="SwimmingSpeed" value="0.45" />
 		</Wearable>
@@ -132,7 +160,7 @@
 
 	<Item name="" identifier="BloodRavens_Mark_VII" category="Equipment" tags="provocative,divingsuit" scale="0.5" fireproof="true" description="">
 
-		<Price baseprice="1500">
+		<Price baseprice="6000">
 			<Price locationtype="outpost" multiplier="1.3" minavailable="0" maxavailable="1"/>
 			<Price locationtype="city" multiplier="1" minavailable="1" maxavailable="2"/>
 			<Price locationtype="research" multiplier="0.7" minavailable="0" maxavailable="1"/>
@@ -145,8 +173,36 @@
 		</Deconstruct>
 		<Fabricate suitablefabricators="fabricator" requiredtime="60">
 			<RequiredSkill identifier="mechanical" level="70" />
-			<RequiredItem identifier="titaniumaluminiumalloy" />
-			<RequiredItem identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
 		</Fabricate>
 		
 		<InventoryIcon texture="BloodRavens_head.png" sourcerect="158,45,150,105" origin="0.5,0.5" />
@@ -238,17 +294,17 @@
 		</StatusEffect>
 		
       <!-- <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" /> -->
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound" damagemultiplier="0.1" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.1" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.0" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,huskinfection" damagemultiplier="0.0" damagesound="LimbArmor"/> 
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiation,exposure,glowing,contamination" damagemultiplier="0.0" damagesound="LimbArmor"/> 
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="alieninfection,poison,paralysis" damagemultiplier="0.35" probabilitymultiplier="0.1" damagesound="LimbArmor"/>
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor"/>
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="hallucinating" damagemultiplier="0.2" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound" damagemultiplier="0.35" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.2" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.4" probabilitymultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.3" probabilitymultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,huskinfection" damagemultiplier="0.1" damagesound="LimbArmor"/> 
+      <!--damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiation,exposure,glowing,contamination" damagemultiplier="0.0" damagesound="LimbArmor"/--> 
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="alieninfection,poison,paralysis" damagemultiplier="0.35" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.3" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="hallucinating" damagemultiplier="0.7" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
                                 <StatValue stattype="FlowResistance" value="0.9" />
                                 <StatValue stattype="SwimmingSpeed" value="0.45" />
 		</Wearable>
@@ -267,7 +323,7 @@
 
 
      <Item name="" identifier="ULTRA_MKVII_Helmet" scale="0.5" category="Equipment" Tags="smallitem,warsuithelm,diving,lightdiving" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_light">
-        <Price baseprice="400">
+        <Price baseprice="4000">
 			<Price locationtype="outpost" multiplier="1.3" minavailable="0" maxavailable="1"/>
 			<Price locationtype="city" multiplier="1.1" minavailable="1" maxavailable="3"/>
 			<Price locationtype="research" multiplier="0.7" minavailable="0" maxavailable="1"/>
@@ -279,8 +335,32 @@
 			<Item identifier="titaniumaluminiumalloy" />
 		</Deconstruct>
 		<Fabricate suitablefabricators="fabricator" requiredtime="60">
-			<RequiredSkill identifier="mechanical" level="50" />
+			<RequiredSkill identifier="mechanical" level="70" />
 			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="plastic" />
+			<Item identifier="plastic" />
+			<Item identifier="plastic" />
+			<Item identifier="plastic" />
+			<Item identifier="plastic" />
 		</Fabricate>
 	   
        <InventoryIcon texture="ULTRA_head.png" sourcerect="200,200,90,88" origin="0.5,0.5" />
@@ -336,17 +416,17 @@
            <Affliction identifier="burn" amount="0.1" />
          </StatusEffect>
       <!-- <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" /> -->
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound" damagemultiplier="0.1" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.1" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.0" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,huskinfection" damagemultiplier="0.0" damagesound="LimbArmor"/> 
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiation,exposure,glowing,contamination" damagemultiplier="0.0" damagesound="LimbArmor"/> 
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound" damagemultiplier="0.35" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.2" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.4" probabilitymultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.3" probabilitymultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,huskinfection" damagemultiplier="0.1" damagesound="LimbArmor"/> 
+      <!--damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiation,exposure,glowing,contamination" damagemultiplier="0.0" damagesound="LimbArmor"/--> 
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="alieninfection,poison,paralysis" damagemultiplier="0.35" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.1" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="hallucinating" damagemultiplier="0.2" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.3" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="hallucinating" damagemultiplier="0.7" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
        </Wearable>
  <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0" autoinject="true">
       <Containable items="none" />
@@ -392,7 +472,7 @@
 
 
      <Item name="" identifier="BloodRavens_MKVII_Helmet" scale="0.5" category="Equipment" Tags="smallitem,warsuithelm,diving,lightdiving" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_light">
-        <Price baseprice="400">
+        <Price baseprice="4000">
 			<Price locationtype="outpost" multiplier="1.3" minavailable="0" maxavailable="1"/>
 			<Price locationtype="city" multiplier="1.1" minavailable="1" maxavailable="3"/>
 			<Price locationtype="research" multiplier="0.7" minavailable="0" maxavailable="1"/>
@@ -404,8 +484,32 @@
 			<Item identifier="titaniumaluminiumalloy" />
 		</Deconstruct>
 		<Fabricate suitablefabricators="fabricator" requiredtime="60">
-			<RequiredSkill identifier="mechanical" level="50" />
+			<RequiredSkill identifier="mechanical" level="70" />
 			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="titaniumaluminiumalloy" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="steel" />
+			<Item identifier="plastic" />
+			<Item identifier="plastic" />
+			<Item identifier="plastic" />
+			<Item identifier="plastic" />
+			<Item identifier="plastic" />
 		</Fabricate>
 	   
        <InventoryIcon texture="BloodRavens_head.png" sourcerect="200,200,90,88" origin="0.5,0.5" />
@@ -431,7 +535,7 @@
 		</sprite>
          
 		 <StatusEffect type="OnWearing" target="Character" >
-                        <Affliction identifier="radiationprotect" strength="100" />
+                        <Affliction identifier="radiationprotect" strength="15" />
          </StatusEffect>
 		 
 		 <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="100.0" Condition="-0.005" comparison="Or">
@@ -461,17 +565,17 @@
            <Affliction identifier="burn" amount="0.1" />
          </StatusEffect>
       <!-- <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" /> -->
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound" damagemultiplier="0.1" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.1" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.0" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.1" probabilitymultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,huskinfection" damagemultiplier="0.0" damagesound="LimbArmor"/> 
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiation,exposure,glowing,contamination" damagemultiplier="0.0" damagesound="LimbArmor"/> 
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound" damagemultiplier="0.35" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.2" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.4" probabilitymultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.3" probabilitymultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,huskinfection" damagemultiplier="0.1" damagesound="LimbArmor"/> 
+      <!--damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiation,exposure,glowing,contamination" damagemultiplier="0.0" damagesound="LimbArmor"/--> 
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="alieninfection,poison,paralysis" damagemultiplier="0.35" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.1" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="hallucinating" damagemultiplier="0.2" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="organdamage" damagemultiplier="0.3" probabilitymultiplier="0.35" damagesound="LimbArmor"/>
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="hallucinating" damagemultiplier="0.7" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
        </Wearable>
  <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0" autoinject="true">
       <Containable items="none" />
@@ -539,12 +643,25 @@
       <Item identifier="organicfiber" /> <!-- 30 -->
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
-      <RequiredItem identifier="aluminium" />
-      <RequiredItem identifier="plastic" />
-      <RequiredItem identifier="organicfiber" />
+	<RequiredSkill identifier="mechanical" level="55" />
+      <Item identifier="aluminium" /> <!-- 42 -->
+	  <Item identifier="aluminium" />
+	  <Item identifier="aluminium" />
+	  <Item identifier="aluminium" />
+	  <Item identifier="aluminium" />
+      <Item identifier="plastic" /> <!-- 45 -->
+	  <Item identifier="plastic" />
+	  <Item identifier="plastic" />
+	  <Item identifier="plastic" />
+	  <Item identifier="plastic" />
+      <Item identifier="organicfiber" /> <!-- 30 -->
+	  <Item identifier="organicfiber" />
+	  <Item identifier="organicfiber" />
+	  <Item identifier="organicfiber" />
+	  <Item identifier="organicfiber" />
     </Fabricate>
 
-    <ItemContainer capacity="20" depth="0.5" >
+    <ItemContainer capacity="10" depth="0.5" >
       <Containable items="smallitem,smallarmsammo,ek_microtorpedo,ek_rocketammo,explosive" excludeditems="toolbelt,toolbox,mobilecontainer,rucksack,backpack,waistbelt" />
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
@@ -576,9 +693,15 @@
       <Item identifier="fpgacircuit" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
-      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredSkill identifier="mechanical" level="60" />
       <RequiredItem identifier="plastic" />
+	  <RequiredItem identifier="plastic" />
+	  <RequiredItem identifier="plastic" />
+	  <RequiredItem identifier="plastic" />
+	  <RequiredItem identifier="plastic" />
       <RequiredItem identifier="fpgacircuit" />
+	  <RequiredItem identifier="fpgacircuit" />
+	  <RequiredItem identifier="fpgacircuit" />
     </Fabricate>
     <WifiComponent range="35000.0" LinkToChat="true" MinChatMessageInterval="0.0">
       <RequiredItems items="mobilebattery" type="Contained" />
