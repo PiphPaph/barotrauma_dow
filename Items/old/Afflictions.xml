@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Afflictions>
+ <Affliction
+    name=""
+    identifier="Purity_seal"
+    description=""
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-100"
+      resistancefor="psychosis"
+      minresistance="0"
+      maxresistance="0.375"/>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="0,0,105,123" color="0,0,105,123" origin="0,0"/>
+  </Affliction>
+
+  <Affliction
+    name="Purity seal+"
+    identifier="Purity seal+"
+    description="Purity seals are borne by various Imperial troops, applied to weapons, armor and vehicles. They take the form of wax seals and parchment inscribed with declarations and prayers. They are prominently displayed on armour, and symbolize that the wearer is uncontaminated by the slightest taint of Chaos."
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-100"
+      resistancefor="psychosis"
+      minresistance="0"
+      maxresistance="0.75"/>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="105,0,105,123" color="105,0,105,123" origin="0,0"/>
+  </Affliction>
+
+  <Affliction
+    name="Armour Indomitus"
+    identifier="Armour Indomitus"
+    description="The Armour Indomitus is a Space Marine relic. This ancient suit of Artificer Armour was forged long before the Horus Heresy, and many Masters of the Forge have made pilgrimages in order to study it first hand. Most of these Masters maintain that it is the blueprint for each model of Space Marine Power Armour, and that its inbuilt Machine Spirit is so complex that it must be blessed every morning and evening to ensure the suit will maintain peak performance. Unlike Plasteel and Ceramite Power Armour, the Armour Indomitus is made from layered plates of raw adamantium, making it very heavy but nearly impenetrable by conventional weaponry. In the face of even heavier fire, it incorporates a Force Field, the secrets of which have long since been lost to the Imperium."
+    type="suitresistance"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-100"
+      resistancefor="damage"
+      minresistance="0"
+      maxresistance="0.50"/>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="210,0,105,123" color="210,0,105,123" origin="0,0"/>
+  </Affliction>
+
+  <Affliction
+    name=""
+    identifier="Life_Signs_Monitor"
+    description=""
+    type="geneticmaterialbuff"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="20">
+      <StatusEffect target="Character">
+        <ReduceAffliction type="damage" amount="0.1" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="20" maxstrength="40">
+      <StatusEffect target="Character">
+        <ReduceAffliction type="damage" amount="0.35" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="40" maxstrength="60">
+      <StatusEffect target="Character">
+        <ReduceAffliction type="damage" amount="0.5" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="60" maxstrength="80">
+      <StatusEffect target="Character">
+        <ReduceAffliction type="damage" amount="0.65" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="80" maxstrength="100">
+      <StatusEffect target="Character">
+        <ReduceAffliction type="damage" amount="0.75" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="0,123,105,123" color="0,123,105,123" origin="0,0"/>
+  </Affliction>
+  
+<Affliction
+    name="occulobe"
+    identifier="occulobe"
+    description=" Regulate a suite of life support functions, including an injection system that can regulate painkillers, anti-toxins, and combat stimulants."
+    type="geneticmaterialbuff"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect 
+      minstrength="0" 
+      maxstrength="100"
+      minscreenblur="0.05"
+      maxscreenblur="0.2"
+      minchromaticaberration="5.0"
+      maxchromaticaberration="10.0"
+      minradialdistort="0.0"
+      maxradialdistort="10.0"
+      graincolor="0,0,0,255"
+      mingrainstrength="3.0" 
+      maxgrainstrength="6.0">
+    </Effect>
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="5,0" sheetelementsize="128,128" color="163,73,764,255" origin="0,0"/>
+  </Affliction>
+
+  <Affliction
+    name="Life Signs Monitor+"
+    identifier="Life Signs Monitor+"
+    description="Костюм заботится о своем пользователе, вводя анарализант по его требованию. Умеренные дозы, замедляют развитие психоза."
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    karmachangeonapplied="0.15"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-100"
+      resistancefor="paralysis"
+      minresistance="0"
+      maxresistance="0.8"/>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="105,123,105,123" color="105,123,105,123" origin="0,0"/>
+  </Affliction>
+  
+ 
+<Affliction
+    name=""
+    identifier="MKVII_SUIT"
+    description=""
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    activationthreshold="1.0"
+    showiconthreshold="50"
+    maxstrength="100">
+    <Effect minstrength="1" maxstrength="25"
+      minvitalitydecrease="0"
+      maxvitalitydecrease="0"
+      strengthchange="-150.0" >
+    </Effect>
+    <Effect minstrength="50" maxstrength="100"
+      strengthchange="-150.0" >
+      <StatusEffect target="Character" PressureProtection="10000.0" />
+    </Effect>
+	<icon texture="Mods/cesmod/Items/icons.png" sourcerect="210,123,105,123" color="210,123,105,123" origin="0,0"/>
+  </Affliction>
+
+<Affliction
+    name=""
+    identifier="radiationprotect"
+    description=""
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="25"
+      strengthchange="-150.0"
+      resistancefor="radiationsickness"
+      minresistance="0.1"
+      maxresistance="1.0"/>
+    <icon texture="Mods/cesmod/Items/icons2.png" sourcerect="0,0,105,123" color="210,123,105,123" origin="0,0"/>
+  </Affliction>
+
+</Afflictions>

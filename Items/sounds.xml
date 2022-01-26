@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sounds>
+  <footstep_armor_heavy1 file="Mods/cesmod/Sounds/footstep_mkIsuit1.ogg" volume="2.0" range="750"/>
+  <footstep_armor_heavy1 file="Mods/cesmod/Sounds/footstep_mkIsuit2.ogg" volume="2.0" range="750"/>
+  <footstep_armor_heavy1 file="Mods/cesmod/Sounds/footstep_mkIsuit3.ogg" volume="2.0" range="750"/>
+  <footstep_armor_heavy2 file="Mods/cesmod/Sounds/FootstepArmor1.ogg" volume="0.8" range="650"/>
+  <footstep_armor_heavy2 file="Mods/cesmod/Sounds/FootstepArmor2.ogg" volume="0.8" range="650"/>
+  <footstep_armor_heavy2 file="Mods/cesmod/Sounds/FootstepArmor3.ogg" volume="0.8" range="650"/>
+  <footstep_armor_heavy2 file="Mods/cesmod/Sounds/FootstepArmor4.ogg" volume="0.8" range="650"/>
+  <footstep_armor_heavy2 file="Mods/cesmod/Sounds/FootstepArmor5.ogg" volume="0.8" range="650"/>
+  <footstep_armor_heavy3 file="Mods/cesmod/Sounds/HeavyArmor1.ogg" volume="2.0" range="750"/>
+  <footstep_armor_heavy3 file="Mods/cesmod/Sounds/HeavyArmor2.ogg" volume="2.0" range="750"/>
+  <footstep_armor_heavy3 file="Mods/cesmod/Sounds/HeavyArmor3.ogg" volume="2.0" range="750"/>
+</sounds>
+

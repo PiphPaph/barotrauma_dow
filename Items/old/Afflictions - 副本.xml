@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Afflictions>
+ <Affliction
+    name="Psychic Hood"
+    identifier="minorsuitpsychosisresistance"
+    description="The Psychic Hood is used by Space Marine Librarians to protect themselves from enemy psychic powers.Often distinguished by a metal hood that rises from the backplate of their Power Armour, it uses a set of interwoven intricately aligned crystals to nullify an opponents psychic attacks.however they are of a very arcane design and are likely not to have been produced perfectly and so are not one hundred percent effective. This was demonstrated when various Space Marine Librarians turned to Chaos during the Horus Heresy, becoming Chaos Sorcerers. Psychic hoods are also occasionally employed by Inquisitors."
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-100"
+      resistancefor="psychosis"
+      minresistance="0"
+      maxresistance="0.375"/>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="0,0,105,123" color="0,0,105,123" origin="0,0"/>
+  </Affliction>
+
+  <Affliction
+    name="zhandoujingshen"
+    identifier="suitpsychosisresistance"
+    description="Костюм активировал большинство своих релаксантов, заставляя пользователя сохранять ясность ума и сосредоточенность."
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-100"
+      resistancefor="psychosis"
+      minresistance="0"
+      maxresistance="0.75"/>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="105,0,105,123" color="105,0,105,123" origin="0,0"/>
+  </Affliction>
+
+  <Affliction
+    name="kangchongji"
+    identifier="suitstrengthen"
+    description="Костюм активировал демпферы, способные погасить механическое воздействие, эффективно уменьшая урон."
+    type="suitresistance"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-100"
+      resistancefor="damage"
+      minresistance="0"
+      maxresistance="0.50"/>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="210,0,105,123" color="210,0,105,123" origin="0,0"/>
+  </Affliction>
+
+  <Affliction
+    name="xiaomabidikang"
+    identifier="minorsuitparalysisresistance"
+    description="Костюм заботится о своем пользователе, вводя анарализант, по его требованию. Незначительные дозы, не остановят, но замедлят развитие психоза."
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    karmachangeonapplied="0.15"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-100"
+      resistancefor="paralysis"
+      minresistance="0"
+      maxresistance="0.8"/>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="0,123,105,123" color="0,123,105,123" origin="0,0"/>
+  </Affliction>
+  
+  <Affliction
+    name="zhongmabidikang"
+    identifier="mediumsuitparalysisresistance"
+    description="Костюм заботится о своем пользователе, вводя анарализант по его требованию. Умеренные дозы, замедляют развитие психоза."
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    karmachangeonapplied="0.15"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-100"
+      resistancefor="paralysis"
+      minresistance="0"
+      maxresistance="0.8"/>
+    <icon texture="Mods/cesmod/Items/icons.png" sourcerect="105,123,105,123" color="105,123,105,123" origin="0,0"/>
+  </Affliction>
+  
+  <Affliction
+    name="Компенсатор давления MK1"
+    identifier="abyssprotection-mk1"
+    description="Вы защищены от высокого давления водных масс(максимальный предел компенсаторов костюма-2500м)"
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    activationthreshold="1.0"
+    showiconthreshold="50"
+    maxstrength="50">
+    <Effect minstrength="1" maxstrength="25"
+      minvitalitydecrease="0"
+      maxvitalitydecrease="0"
+      strengthchange="-150.0" >
+    </Effect>
+    <Effect minstrength="25" maxstrength="50"
+      strengthchange="-150.0" >
+      <StatusEffect target="Character" PressureProtection="2500.0" />
+    </Effect>
+	<icon texture="Mods/cesmod/Items/icons.png" sourcerect="210,123,105,123" color="210,123,105,123" origin="0,0"/>
+  </Affliction>
+
+
+<Affliction
+    name="Компенсатор давления MK2"
+    identifier="abyssprotection-mk2"
+    description="Вы защищены от высокого давления водных масс(максимальный предел компенсаторов костюма-5500м)"
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    activationthreshold="1.0"
+    showiconthreshold="50"
+    maxstrength="100">
+    <Effect minstrength="1" maxstrength="25"
+      minvitalitydecrease="0"
+      maxvitalitydecrease="0"
+      strengthchange="-150.0" >
+    </Effect>
+    <Effect minstrength="50" maxstrength="100"
+      strengthchange="-150.0" >
+      <StatusEffect target="Character" PressureProtection="5500.0" />
+    </Effect>
+	<icon texture="Mods/cesmod/Items/icons.png" sourcerect="210,123,105,123" color="210,123,105,123" origin="0,0"/>
+  </Affliction>
+
+
+
+<Affliction
+    name="Компенсатор давления MK3"
+    identifier="abyssprotection-mk3"
+    description="Вы защищены от высокого давления водных масс(максимальный предел компенсаторов костюма-10000м)"
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    activationthreshold="1.0"
+    showiconthreshold="50"
+    maxstrength="100">
+    <Effect minstrength="1" maxstrength="25"
+      minvitalitydecrease="0"
+      maxvitalitydecrease="0"
+      strengthchange="-150.0" >
+    </Effect>
+    <Effect minstrength="50" maxstrength="100"
+      strengthchange="-150.0" >
+      <StatusEffect target="Character" PressureProtection="10000.0" />
+    </Effect>
+	<icon texture="Mods/cesmod/Items/icons.png" sourcerect="210,123,105,123" color="210,123,105,123" origin="0,0"/>
+  </Affliction>
+
+<Affliction
+    name="fushefanghu"
+    identifier="radiationprotect"
+    description="Вы защищены от радиационного фона."
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="25"
+      strengthchange="-150.0"
+      resistancefor="radiationsickness"
+      minresistance="0.1"
+      maxresistance="1.0"/>
+    <icon texture="Mods/cesmod/Items/icons2.png" sourcerect="0,0,105,123" color="210,123,105,123" origin="0,0"/>
+  </Affliction>
+
+<Affliction
+    name="Защита от радиации"
+    identifier="radiationprotectmk1"
+    description="Вы защищены от радиационного фона."
+    type="resistance"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="50" maxstrength="100"
+      strengthchange="-150.0"
+      resistancefor="radiationsickness"
+      minresistance="2.0"
+      maxresistance="5.0"/>
+    <icon texture="Mods/cesmod/Items/icons2.png" sourcerect="0,0,105,123" color="210,123,105,123" origin="0,0"/>
+  </Affliction>
+
+</Afflictions>

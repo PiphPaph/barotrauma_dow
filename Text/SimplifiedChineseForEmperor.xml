@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)"> 
+
+
+    <!--./cesmod/Items/NextGen.xml-->
+    <entityname.ULTRA_Mark_VII>极限战士MKVII型动力甲（标准涂装）</entityname.ULTRA_Mark_VII>
+    <entitydescription.ULTRA_Mark_VII>虽然星际战士护甲在千百年来不断进化和改变，但关键部件保持不变。
+[自动感应]：包含在头盔中，这些系统包括思维激活的通信阵列和音频过滤器与健康信息显示器。
+[光透镜]：保护星际战士免受光爆发的影响，让他能够看到红外线和紫外线光谱，并在低光照条件下实现视觉。
+[呼吸器] ：头盔中一个呼吸器来过滤毒素并利用内部氧气供应。
+[自动响应肩板]：形状为偏转和吸收传入的打击，它们通常显示纹章，包括章、连和小队符号。
+[胸甲]：设计用于保护铠装电源线。
+[背包动力装置]：它容纳装甲的主要动力核心，内置一个小型核能发电器，需要装备燃料棒驱动战甲。
+[生命体征监视器]：调节一系列生命支持功能，包括可以自动注射止痛药、抗毒素和战斗兴奋剂的注射系统与自动恢复伤势的维生系统（需装备钚燃料棒或雷素燃料棒）。
+[强化护胫]：这些包含陀螺稳定器和动力装置，可以磁化装甲靴的鞋底，使星际战士能够在潜艇内抗击水流冲击。</entitydescription.ULTRA_Mark_VII>
+    <entityname.ULTRA_MKVII_Helmet>极限战士MKVII型头盔（标准涂装）</entityname.ULTRA_MKVII_Helmet>
+<entitydescription.ULTRA_MKVII_Helmet>包含呼吸器、自动注射系统、雷达与健康信息显示器的MKVII型星际战士头盔</entitydescription.ULTRA_MKVII_Helmet>
+ <entityname.BloodRavens_Mark_VII>血鸦战团MKVII型动力甲（标准涂装）</entityname.BloodRavens_Mark_VII>
+<entitydescription.BloodRavens_Mark_VII>虽然星际战士护甲在千百年来不断进化和改变，但关键部件保持不变。
+[自动感应]：包含在头盔中，这些系统包括思维激活的通信阵列和音频过滤器与健康信息显示器。
+[光透镜]：保护星际战士免受光爆发的影响，让他能够看到红外线和紫外线光谱，并在低光照条件下实现视觉。
+[呼吸器] ：头盔中一个呼吸器来过滤毒素并利用内部氧气供应。
+[自动响应肩板]：形状为偏转和吸收传入的打击，它们通常显示纹章，包括章、连和小队符号。
+[胸甲]：设计用于保护铠装电源线。
+[背包动力装置]：它容纳装甲的主要动力核心，内置一个小型核能发电器，需要装备燃料棒驱动战甲。
+[生命体征监视器]：调节一系列生命支持功能，包括可以自动注射止痛药、抗毒素和战斗兴奋剂的注射系统与自动恢复伤势的维生系统（需装备钚燃料棒或雷素燃料棒）。
+[强化护胫]：这些包含陀螺稳定器和动力装置，可以磁化装甲靴的鞋底，使星际战士能够在潜艇内抗击水流冲击。</entitydescription.BloodRavens_Mark_VII>
+    <entityname.BloodRavens_MKVII_Helmet>血鸦战团MKVII型头盔（标准涂装）</entityname.BloodRavens_MKVII_Helmet>
+<entitydescription.BloodRavens_MKVII_Helmet>包含呼吸器、自动注射系统、雷达与健康信息显示器的MKVII型星际战士头盔</entitydescription.BloodRavens_MKVII_Helmet>
+    <entityname.40Kheadset>耳带式红外探测器</entityname.40Kheadset>
+
+
+
+    <!--./cesmod/Items/Weapons/weapons.xml-->
+    <entityname.boltgunmag>爆弹枪标准弹匣</entityname.boltgunmag>
+ <entitydescription.boltgunmag>包含 20 发标准弹的镰刀弹匣</entitydescription.boltgunmag>
+    <entityname.Boltgun>爆弹枪MKIV型</entityname.Boltgun>
+ <entitydescription.Boltgun>爆弹枪，通常也被称为爆矢枪，是阿斯塔特们的标准武器。作为一种 .75 口径的武器，爆弹枪发射自走式爆炸“bolt”，一旦穿透目标就会爆炸能有效地将目标从内部炸开并产生毁灭性的伤害。爆弹枪是一种重型的、坚固的武器，具有强大的后坐力，普通人类难以驾驭。但是对于的阿斯塔特来说，爆弹枪将会让帝皇的敌人感受到来自帝皇的神圣愤怒。</entitydescription.Boltgun>
+    <entityname.CombatKnife>阿斯塔特战斗刀</entityname.CombatKnife>
+ <entitydescription.CombatKnife>只有伟大的阿斯塔特战士才会称这种强大的武器只是一把刀——如果不是握得太宽，人类可以将这些令人印象深刻的刀片用作剑。这些刀既坚固又厚实，专为近距离格斗而设计，通常是星际战士在所有其他武器都用完弹药或动力时最后使用的武器。</entitydescription.CombatKnife>
+    <entityname.Boltpistol>爆弹手枪</entityname.Boltpistol>
+
+    <!--./cesmod/Items/Afflictions.xml-->
+<afflictionname.Purity_seal>纯洁印章</afflictionname.Purity_seal>
+<afflictiondescription.Purity_seal>纯洁印章采用蜡印和羊皮纸的形式，上面刻有宣言和祈祷。它们显眼地展示在盔甲上，能够给佩戴者提供微弱的精神抗性。</afflictiondescription.Purity_seal>
+<afflictionname.Life_Signs_Monitor>自动维生系统</afflictionname.Life_Signs_Monitor>
+<afflictiondescription.Life_Signs_Monitor>当穿戴者受到非致命的伤害并且在动力甲能源充足的情况下，该系统将缓慢的治愈穿戴者的伤势。</afflictiondescription.Life_Signs_Monitor>
+<afflictionname.MKVII_SUIT>MKVII型动力甲</afflictionname.MKVII_SUIT>
+<afflictiondescription.MKVII_SUIT>MKVII型动力甲是荷鲁斯叛乱以来一万年间最常见的动力甲之一，可以保护穿戴者承受10000m的水压。</afflictiondescription.MKVII_SUIT>
+<afflictionname.radiationprotect>辐射防护</afflictionname.radiationprotect>
+<afflictiondescription.radiationprotect>厚实的装甲将会保护帝皇最忠诚的战士。</afflictiondescription.radiationprotect>
+
+
+
+</infotexts>

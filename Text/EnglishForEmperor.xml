@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+
+ <!--./cesmod/Items/NextGen.xml-->
+    <entityname.ULTRA_Mark_VII>Power Armour of ULTRA Mark VII</entityname.ULTRA_Mark_VII>
+    <entityname.ULTRA_MKVII_Helmet>Helmet of ULTRA Mark VII</entityname.ULTRA_MKVII_Helmet>
+ <entityname.BloodRavens_Mark_VII>Power Armour of Blood Ravens Mark VII</entityname.BloodRavens_Mark_VII>
+    <entityname.BloodRavens_MKVII_Helmet>Helmet of Blood Ravens Mark VII</entityname.BloodRavens_MKVII_Helmet>
+    <entityname.40Kheadset>Goggles</entityname.40Kheadset>
+
+
+
+    <!--./cesmod/Items/Weapons/weapons.xml-->
+    <entityname.boltgunmag>Boltgun mag</entityname.boltgunmag>
+    <entityname.Boltgun>Boltgun MKIV</entityname.Boltgun>
+    <entityname.CombatKnife>CombatKnife</entityname.CombatKnife>
+    <entityname.Boltpistol>Boltpistol</entityname.Boltpistol>
+
+    <!--./cesmod/Items/Afflictions.xml-->
+<afflictionname.Purity_seal>Purity_seal</afflictionname.Purity_seal>
+<afflictionname.Life_Signs_Monitor>Automatic life support system</afflictionname.Life_Signs_Monitor>
+<afflictionname.MKVII_SUIT>MKVII</afflictionname.MKVII_SUIT>
+<afflictionname.radiationprotect>radiationprotect</afflictionname.radiationprotect>
+
+
+
+</infotexts>

@@ -1,0 +1,82 @@
+<Items>
+  
+	<Item name="Топливный стержень" identifier="marinebatteryrod" category="Equipment,Electrical" tags="smallitem,loadable,mobilebattery,mcbatteryrod" scale="0.5" cargocontaineridentifier="metalcrate" description="Мощный стержень, перезаряжаемый в зарядной станции, для питания скафандра типа 'Бездна'." impactsoundtag="impact_metal_light">
+		<PreferredContainer primary="warsuit1,warsuit2,warsuit3" spawnprobability="0"/>
+		<Price baseprice="800">
+			<Price locationtype="outpost" multiplier="0.9" minavailable="3"/>
+			<Price locationtype="city" multiplier="0.85" minavailable="5"/>
+			<Price locationtype="research" multiplier="1.2" minavailable="2"/>
+			<Price locationtype="military" multiplier="0.8" minavailable="5"/>
+			<Price locationtype="mine" multiplier="1" minavailable="2"/>
+		</Price>
+		<Deconstruct time="10">
+			<Item identifier="batterycell" />
+			<Item identifier="fuelrod" />
+			<Item identifier="fuelrod" />
+		</Deconstruct>
+		<Fabricate suitablefabricators="fabricator" requiredtime="50">
+			<RequiredSkill identifier="electrical" level="25" />
+			<RequiredItem identifier="fuelrod" />
+			<RequiredItem identifier="fuelrod" />
+			<RequiredItem identifier="fuelrod" />
+			<RequiredItem identifier="batterycell" />
+			<RequiredItem identifier="batterycell" />
+		</Fabricate>
+		<InventoryIcon texture="rodsicons.png" sourcerect="0,0,60,60" origin="0.5,0.5" />
+		<Sprite texture="rodsicons.png" sourcerect="0,60,70,18" depth="0.8" />
+		<Body width="70" height="18" density="30" />
+		<Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" />
+	</Item>	
+	<Item name="Ториевый стержень" identifier="marinethoriumbatteryrod" category="Equipment,Electrical" tags="smallitem,loadable,mobilebattery,mcbatteryrod" scale="0.5" cargocontaineridentifier="metalcrate" description="Мощный ториевый стержень, перезаряжаемый в зарядной станции, для питания скафандра типа 'Бездна'." impactsoundtag="impact_metal_light">
+		<PreferredContainer primary="warsuit1,warsuit2,warsuit3" spawnprobability="0"/>
+		<Price baseprice="1200">
+			<Price locationtype="outpost" multiplier="0.9" minavailable="3"/>
+			<Price locationtype="city" multiplier="0.85" minavailable="5"/>
+			<Price locationtype="research" multiplier="1.2" minavailable="2"/>
+			<Price locationtype="military" multiplier="0.8" minavailable="5"/>
+			<Price locationtype="mine" multiplier="1" minavailable="2"/>
+		</Price>
+		<Deconstruct time="10">
+			<Item identifier="marinebatteryrod" />
+			<Item identifier="thoriumfuelrod" />
+			<Item identifier="thoriumfuelrod" />
+		</Deconstruct>
+		<Fabricate suitablefabricators="fabricator" requiredtime="60">
+			<RequiredSkill identifier="electrical" level="40" />
+			<RequiredItem identifier="thoriumfuelrod" />
+			<RequiredItem identifier="thoriumfuelrod" />
+			<RequiredItem identifier="thoriumfuelrod" />
+			<RequiredItem identifier="marinebatteryrod" />
+		</Fabricate>
+		<InventoryIcon texture="rodsicons.png" sourcerect="60,0,60,60" origin="0.5,0.5" />
+		<Sprite texture="rodsicons.png" sourcerect="0,78,70,18" depth="0.8" />
+		<Body width="70" height="18" density="30" />
+		<Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" />
+	</Item>	
+	<Item name="Фульгуриевый стержень" identifier="marinefulguriumbatteryrod" category="Equipment,Electrical" tags="smallitem,loadable,mobilebattery,mcbatteryrod" scale="0.5" cargocontaineridentifier="metalcrate" description="Мощный фульгуриевый стержень, перезаряжаемый в зарядной станции, для питания скафандра типа 'Бездна'." impactsoundtag="impact_metal_light">
+		<PreferredContainer primary="warsuit1,warsuit2,warsuit3" spawnprobability="0"/>
+		<Price baseprice="2000">
+			<Price locationtype="outpost" multiplier="2" minavailable="0"/>
+			<Price locationtype="city" multiplier="2" minavailable="0"/>
+			<Price locationtype="research" multiplier="2" minavailable="0"/>
+			<Price locationtype="military" multiplier="2" minavailable="0"/>
+			<Price locationtype="mine" multiplier="2" minavailable="0"/>
+		</Price>
+		<Deconstruct time="10">
+			<Item identifier="marinethoriumbatteryrod" />
+			<Item identifier="fulguriumfuelrod" />
+			<Item identifier="fulguriumfuelrod" />
+		</Deconstruct>
+		<Fabricate suitablefabricators="fabricator" requiredtime="50">
+			<RequiredSkill identifier="electrical" level="70" />
+			<RequiredItem identifier="fulguriumfuelrod" />
+			<RequiredItem identifier="fulguriumfuelrod" />
+			<RequiredItem identifier="marinethoriumbatteryrod" />
+		</Fabricate>
+		<InventoryIcon texture="rodsicons.png" sourcerect="120,0,60,60" origin="0.5,0.5" />
+		<Sprite texture="rodsicons.png" sourcerect="0,96,70,18" depth="0.8" />
+		<Body width="70" height="18" density="30" />
+		<Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" />
+	</Item>
+	
+  </Items>
